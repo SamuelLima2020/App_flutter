@@ -34,7 +34,7 @@ class FacebookPage extends StatelessWidget {
               height: 20,
             ),
             TextFormField(
-              // autofocus: true,
+              autofocus: true,
               keyboardType: TextInputType.emailAddress,
               decoration: InputDecoration(
                 labelText: "E-mail",
@@ -117,6 +117,11 @@ class FacebookPage extends StatelessWidget {
                 child: Text(
                   "Cancelar",
                   textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.indigo,
+                    fontSize: 16,
+                  ),
                 ),
                 onPressed: () => Navigator.pop(context, false),
               ),

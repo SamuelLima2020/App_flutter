@@ -59,6 +59,7 @@ class ResetPasswordPage extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       TextFormField(
+                        autofocus: true,
                         keyboardType: TextInputType.emailAddress,
                         decoration: InputDecoration(
                           labelText: "E-mail",
@@ -87,7 +88,7 @@ class ResetPasswordPage extends StatelessWidget {
                             ],
                           ),
                           borderRadius: BorderRadius.all(
-                            Radius.circular(5),
+                            Radius.circular(12),
                           ),
                         ),
                         child: SizedBox.expand(

@@ -64,7 +64,7 @@ class LoginPage extends StatelessWidget {
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontStyle: FontStyle.italic,
-                    color: Colors.indigo,
+                    color: Colors.redAccent,
                     fontSize: 15,
                   ),
                 ),
@@ -193,11 +193,11 @@ class LoginPage extends StatelessWidget {
               height: 35,
               child: FlatButton(
                 child: Text(
-                  'Cadastra-se',
+                  'Cadastre-se',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Colors.pink,
+                    color: Colors.indigo,
                     fontSize: 16,
                   ),
                 ),

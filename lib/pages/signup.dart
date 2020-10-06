@@ -66,7 +66,7 @@ class SignupPage extends StatelessWidget {
               height: 5,
             ),
             TextFormField(
-              // autofocus: true,
+              autofocus: true,
               keyboardType: TextInputType.text,
               decoration: InputDecoration(
                 labelText: "Nome",
@@ -162,7 +162,7 @@ class SignupPage extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Colors.purple,
+                    color: Colors.red,
                     fontSize: 16,
                   ),
                 ),

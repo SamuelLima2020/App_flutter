@@ -49,7 +49,7 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - ilogo-dog3.pngmagens/app-logo.png
+    - imagens/app-logo.png
     - imagens/banho-dog.png
     - imagens/bone.png
     - imagens/carinho.png
